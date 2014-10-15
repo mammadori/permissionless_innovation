@@ -54,7 +54,14 @@
 \pgfdeclareimage[height=6cm]{whatis}{figures/WhatIsBitcoin.pdf}
 \pgfdeclareimage[height=2cm]{challenge}{figures/Challenge.pdf}
 \pgfdeclareimage[height=5cm]{transaction}{figures/Transaction_Double_Entry.png}
-\pgfdeclareimage[height=4cm]{wallet}{figures/fbk_wallet.pdf}
+\pgfdeclareimage[height=3cm]{wallet}{figures/fbk_wallet.pdf}
+\pgfdeclareimage[height=2cm]{keytoaddr}{figures/privk_to_pubK_to_addressA.png}
+\pgfdeclareimage[height=6.5cm]{chain}{figures/ChainOfBlocks.png}
+\pgfdeclareimage[height=3.3cm]{merkle}{figures/MerkleTree.png}
+\pgfdeclareimage[height=6cm]{fullnode}{figures/fullnode.pdf}
+\pgfdeclareimage[height=6cm]{hashrate}{figures/hashrate.png}
+\pgfdeclareimage[height=6cm]{cryptocap}{figures/cryptomarketcap.png}
+
 
 
 \newcommand{\powemph}[1]{\textbf{\underline{#1}}}
@@ -80,7 +87,7 @@
 
 \logo{\pgfuseimage{ccbysa}}
 
-\section{What is Bitcoin?}
+\section{What}
 
 \begin{frame}[<+->]{Definitions}
 
@@ -143,7 +150,7 @@ A computer is a system that takes data in input, elaborate them via a mathematic
 \begin{scriptsize}Real time visuals: \url{http://bitcoinglobe.com/}\end{scriptsize}
 \end{frame}
 
-\section{Who invented Bitcoin?}
+\section{Who}
 
 \begin{frame}{Who Invented Bitcoin?}{Satoshi Nakamoto}
 
@@ -158,7 +165,7 @@ A computer is a system that takes data in input, elaborate them via a mathematic
 \challenge
 \end{frame}
 
-\section{Why Bitcoin?}
+\section{Why}
 
 \begin{frame}{Trusted third party}
 
@@ -173,7 +180,7 @@ Trustless does not mean that we do not need to trust \emph{anything}, but that w
 
 \end{frame}
 
-\section{How does Bitcoin works?}
+\section{How}
 
 \begin{frame}{Consensus in a decentralized system}{The Byzantine Generals' problem}
 
@@ -198,19 +205,93 @@ generals will reach agreement.}{Marshall Pease, Robert Shosthak and Leslie Lampo
  \vfill
  \begin{tiny}
  \url{https://blockchain.info/address/1fbk5AYjA7wLdwbru2CunWEuToBu1USsX}
- \end{tiny}
+ \vfill
+ \pgfuseimage{keytoaddr}
+ \vfill
+ Elliptic Curve Digital Signature Algorithm -- secp256k1 \\
+ Hash = RIPEMD160(SHA256(pubkey)
+\end{tiny}
 \end{frame}
 
 \section{The Blockchain}
 
-\begin{frame}{Blockchain}{Decentralized Ledger}
- 
+\begin{frame}{Chain of Blocks}{A Distributed Ledger}
+\begin{columns}
+ \begin{column}{0.3 \textwidth}
+  \pgfuseimage{chain}
+ \end{column}
+ \begin{column}{0.6 \textwidth}
+ \begin{exampleblock}{\begin{scriptsize}Secure Hash Algorithm -- SHA256\end{scriptsize}}
+  \begin{tiny}The proof of work used in Bitcoin takes advantage of the apparently random 
+ nature of cryptographic hashes. A good cryptographic
+ hash algorithm converts arbitrary data into a seemingly-random number.
+ \end{tiny}
+ \end{exampleblock}
+  \pgfuseimage{merkle}
+ \end{column}
+ \hfill
+\end{columns}
+\end{frame}
+
+\begin{frame}{Consensus via Proof of work}{Longest chain wins}
+ \begin{columns}
+  \begin{column}{0.5 \textwidth}
+   \pgfuseimage{fullnode}
+  \end{column}
+  \begin{column}{0.4 \textwidth}
+   \begin{exampleblock}{\begin{scriptsize}The ``Work'' is called ``mining'' \end{scriptsize}}
+     \begin{scriptsize}
+      \begin{enumerate}
+       \item SHA256(SHA256(block header) + nonce) < \emph{target} ?
+       \item The Bitcoin Network will rewards me (25 BTC)
+      \end{enumerate}
+      Difficulty (``inverse'' of target) will adapt to global hashrate every $\sim$ 2 weeks (2016 blocks)
+     \end{scriptsize}
+   \end{exampleblock}
+  \end{column}
+  \hfill
+ \end{columns}
+\end{frame}
+
+\begin{frame}{Historycal Hashrate}{Logarithmic Scale}
+ \pgfuseimage{hashrate}
+\end{frame}
+
+\section{Status}
+
+\begin{frame}{Random Quotes}{Taking Breath}
+
+\citazione{Bitcoin is a remarkable cryptographic achievement and the ability to create 
+something that is not duplicable in the digital world has enormous value.}{Eric Schmidt (Google's former CEO)}
+
+%\citazione{Every informed person needs to know about Bitcoin because it might be one of the world’s most important developments.}{Leon Louw, Nobel Peace prize nominee}
+
+\citazione{Not having an internet strategy in 1995 is the equivalent of not having a bitcoin strategy now.}{
+Moe Levin (Bitpay CEO)}
+
+\citazione{By 2005 or so, it will become clear that the Internet's 
+impact on the economy has been no greater than the fax machine's.}{Paul Robin Krugman
+-- Nobel Memorial Prize in Economic Sciences (1998)}
 \end{frame}
 
 
 \begin{frame}{What is happening?}{Status of Venture Capitals}
   \pgfuseimage{vcmoney}
 \end{frame}
+
+\begin{frame}{Usage Metrics}{Latest quarter}
+\pgfuseimage{metrics}
+\begin{itemize}
+ \item \url{http://coinmap.org/} 
+\end{itemize}
+\end{frame}
+
+\section{Altcoins}
+
+\begin{frame}{Crypto currencies}{640 currencies should be enough for everyone}
+\pgfuseimage{cryptocap}
+\end{frame}
+
 
 \begin{frame}{Bitcoin is difficult}{Why FBK?}
 
@@ -222,44 +303,16 @@ generals will reach agreement.}{Marshall Pease, Robert Shosthak and Leslie Lampo
   \item Enterprenuers need Technology partners
  \end{itemize}
  
-\citazione{Every informed person needs to know about Bitcoin because it might be one of the world’s most important developments.}{Leon Louw, Nobel Peace prize nominee}
-
-\citazione{Not having an internet strategy in 1995 is the equivalent of not having a bitcoin strategy now.}{
-Moe Levin (Bitpay CEO)}
-
-\end{frame}
-
-
-
-
-
-\begin{frame}{The Technology}{Underliyng value}
-
-\begin{exampleblock}{Eric Schmidt (Google's former CEO)}
-Bitcoin is a remarkable cryptographic achievement and the ability to create 
-something that is not duplicable in the digital world has enormous value.
-\end{exampleblock}
 
 
 \end{frame}
 
 
-\begin{frame}{Usage Metrics}{Latest quarter}
-
-\pgfuseimage{metrics}
-
-\begin{itemize}
- \item \url{http://coinmap.org/} 
- \item 
-\end{itemize}
-
-\end{frame}
 
 
 
 
-
-\section{Note finali}
+\section{Final Notes}
 
 \begin{frame}{What Next?}
  \begin{itemize}
