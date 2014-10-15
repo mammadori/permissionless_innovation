@@ -1,0 +1,428 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="744.09448819"
+   height="1052.3622047"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.48.4 r9939"
+   sodipodi:docname="WhatIsBitcoin.svg"
+   inkscape:export-filename="/home/marco/Dropbox/Docs/slides/WhatIsBitcoin.png"
+   inkscape:export-xdpi="90"
+   inkscape:export-ydpi="90">
+  <defs
+     id="defs4">
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient4002">
+      <stop
+         style="stop-color:#7b7b7b;stop-opacity:1;"
+         offset="0"
+         id="stop4004" />
+      <stop
+         style="stop-color:#7b7b7b;stop-opacity:0;"
+         offset="1"
+         id="stop4006" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient3979">
+      <stop
+         style="stop-color:#3d2f13;stop-opacity:1;"
+         offset="0"
+         id="stop3981" />
+      <stop
+         style="stop-color:#3d2f13;stop-opacity:0;"
+         offset="1"
+         id="stop3983" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient3773">
+      <stop
+         style="stop-color:#000000;stop-opacity:1;"
+         offset="0"
+         id="stop3775" />
+      <stop
+         style="stop-color:#000000;stop-opacity:0;"
+         offset="1"
+         id="stop3777" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient3765">
+      <stop
+         style="stop-color:#4c501b;stop-opacity:1;"
+         offset="0"
+         id="stop3767" />
+      <stop
+         style="stop-color:#4c501b;stop-opacity:0;"
+         offset="1"
+         id="stop3769" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3765"
+       id="linearGradient3771"
+       x1="185.05078"
+       y1="306.20981"
+       x2="425.46094"
+       y2="306.20981"
+       gradientUnits="userSpaceOnUse" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3773"
+       id="radialGradient3781"
+       cx="305.25586"
+       cy="306.20981"
+       fx="305.25586"
+       fy="306.20981"
+       r="124.05508"
+       gradientTransform="matrix(1,0,0,0.38858118,0,187.22244)"
+       gradientUnits="userSpaceOnUse" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3773-6"
+       id="radialGradient3781-0"
+       cx="305.25586"
+       cy="306.20981"
+       fx="305.25586"
+       fy="306.20981"
+       r="124.05508"
+       gradientTransform="matrix(1,0,0,0.38858118,0,187.22244)"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient3773-6">
+      <stop
+         style="stop-color:#000000;stop-opacity:1;"
+         offset="0"
+         id="stop3775-0" />
+      <stop
+         style="stop-color:#000000;stop-opacity:0;"
+         offset="1"
+         id="stop3777-9" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3765-5"
+       id="linearGradient3771-8"
+       x1="185.05078"
+       y1="306.20981"
+       x2="425.46094"
+       y2="306.20981"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient3765-5">
+      <stop
+         style="stop-color:#4c501b;stop-opacity:1;"
+         offset="0"
+         id="stop3767-0" />
+      <stop
+         style="stop-color:#4c501b;stop-opacity:0;"
+         offset="1"
+         id="stop3769-4" />
+    </linearGradient>
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3773-3"
+       id="radialGradient3781-7"
+       cx="305.25586"
+       cy="306.20981"
+       fx="305.25586"
+       fy="306.20981"
+       r="124.05508"
+       gradientTransform="matrix(1,0,0,0.38858118,0,187.22244)"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient3773-3">
+      <stop
+         style="stop-color:#000000;stop-opacity:1;"
+         offset="0"
+         id="stop3775-00" />
+      <stop
+         style="stop-color:#000000;stop-opacity:0;"
+         offset="1"
+         id="stop3777-8" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3765-53"
+       id="linearGradient3771-5"
+       x1="185.05078"
+       y1="306.20981"
+       x2="425.46094"
+       y2="306.20981"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient3765-53">
+      <stop
+         style="stop-color:#4c501b;stop-opacity:1;"
+         offset="0"
+         id="stop3767-5" />
+      <stop
+         style="stop-color:#4c501b;stop-opacity:0;"
+         offset="1"
+         id="stop3769-0" />
+    </linearGradient>
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3773-5"
+       id="radialGradient3781-3"
+       cx="305.25586"
+       cy="306.20981"
+       fx="305.25586"
+       fy="306.20981"
+       r="124.05508"
+       gradientTransform="matrix(1,0,0,0.38858118,0,187.22244)"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient3773-5">
+      <stop
+         style="stop-color:#000000;stop-opacity:1;"
+         offset="0"
+         id="stop3775-3" />
+      <stop
+         style="stop-color:#000000;stop-opacity:0;"
+         offset="1"
+         id="stop3777-2" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3979"
+       id="linearGradient3991"
+       gradientUnits="userSpaceOnUse"
+       x1="182.32656"
+       y1="306.20981"
+       x2="392.71641"
+       y2="306.20981" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4002"
+       id="linearGradient4008"
+       x1="-123.7386"
+       y1="467.48384"
+       x2="111.61679"
+       y2="467.48384"
+       gradientUnits="userSpaceOnUse" />
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.98994949"
+     inkscape:cx="299.44516"
+     inkscape:cy="660.42999"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1568"
+     inkscape:window-height="809"
+     inkscape:window-x="103"
+     inkscape:window-y="112"
+     inkscape:window-maximized="0" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Livello 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <path
+       sodipodi:type="arc"
+       style="fill:#318c35;fill-opacity:0.69581748;fill-rule:evenodd;stroke:#797162;stroke-width:4.69999981;stroke-miterlimit:4;stroke-opacity:0.50178127;stroke-dasharray:none"
+       id="path2985"
+       sodipodi:cx="288.57144"
+       sodipodi:cy="320.93362"
+       sodipodi:rx="161.42857"
+       sodipodi:ry="161.42857"
+       d="m 450.00002,320.93362 a 161.42857,161.42857 0 1 1 -322.85715,0 161.42857,161.42857 0 1 1 322.85715,0 z"
+       transform="translate(-25.295867,-2.8274067)" />
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot3755"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:#3d2f13;stroke-width:0.80000001;stroke-miterlimit:4;stroke-opacity:0.50178127;stroke-dasharray:none;font-family:Sans"
+       transform="translate(-69.0093,11.854354)"><flowRegion
+         id="flowRegion3757"
+         style="fill:url(#radialGradient3781);fill-opacity:1;stroke:url(#linearGradient3771)"><rect
+           id="rect3759"
+           width="268.57141"
+           height="118.57143"
+           x="182.85715"
+           y="252.36218"
+           style="fill:#ffffff;fill-opacity:1;stroke:#3d2f13;stroke-width:0.80000001;stroke-miterlimit:4;stroke-opacity:0.50178127;stroke-dasharray:none" /></flowRegion><flowPara
+         id="flowPara3761"
+         style="fill:#ffffff;fill-opacity:1;stroke:#3d2f13;stroke-width:0.80000001;stroke-miterlimit:4;stroke-opacity:0.50178127;stroke-dasharray:none">Math based</flowPara><flowPara
+         id="flowPara3763"
+         style="fill:#ffffff;fill-opacity:1;stroke:#3d2f13;stroke-width:0.80000001;stroke-miterlimit:4;stroke-opacity:0.50178127;stroke-dasharray:none">digital asset</flowPara></flowRoot>    <g
+       transform="translate(316.42856,-10.000014)"
+       id="g5284-9">
+      <path
+         d="m 450.00002,320.93362 c 0,89.15454 -72.27404,161.42858 -161.42858,161.42858 -89.15454,0 -161.42857,-72.27404 -161.42857,-161.42858 0,-89.15454 72.27403,-161.42857 161.42857,-161.42857 89.15454,0 161.42858,72.27403 161.42858,161.42857 z"
+         sodipodi:ry="161.42857"
+         sodipodi:rx="161.42857"
+         sodipodi:cy="320.93362"
+         sodipodi:cx="288.57144"
+         id="path2985-8"
+         style="fill:#8c4e31;fill-opacity:0.46768063;fill-rule:evenodd;stroke:#797162;stroke-width:4.69999981;stroke-miterlimit:4;stroke-opacity:0.50178145;stroke-dasharray:none"
+         sodipodi:type="arc"
+         transform="translate(-82.832509,14.142136)" />
+      <flowRoot
+         transform="translate(-83.63221,21.493882)"
+         style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:#3d2f13;stroke-width:0.80000001;stroke-miterlimit:4;stroke-opacity:0.50178145;stroke-dasharray:none;font-family:Sans"
+         id="flowRoot3755-0"
+         xml:space="preserve"><flowRegion
+           style="fill:url(#radialGradient3781-0);fill-opacity:1;stroke:url(#linearGradient3771-8)"
+           id="flowRegion3757-3"><rect
+             style="fill:#ffffff;fill-opacity:1;stroke:#3d2f13;stroke-width:0.80000001;stroke-miterlimit:4;stroke-opacity:0.50178145;stroke-dasharray:none"
+             y="252.36218"
+             x="182.85715"
+             height="118.57143"
+             width="268.57141"
+             id="rect3759-2" /></flowRegion><flowPara
+           style="text-align:center;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:#3d2f13;stroke-width:0.80000001;stroke-miterlimit:4;stroke-opacity:0.50178145;stroke-dasharray:none"
+           id="flowPara3763-1">Peer to Peer</flowPara><flowPara
+           style="text-align:center;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:#3d2f13;stroke-width:0.80000001;stroke-miterlimit:4;stroke-opacity:0.50178145;stroke-dasharray:none"
+           id="flowPara5354">Network</flowPara></flowRoot>    </g>
+    <g
+       id="g5606"
+       transform="translate(-45.456865,43.436559)">
+      <path
+         transform="translate(150.71427,166.42856)"
+         d="m 450.00002,320.93362 c 0,89.15454 -72.27404,161.42858 -161.42858,161.42858 -89.15454,0 -161.42857,-72.27404 -161.42857,-161.42858 0,-89.15454 72.27403,-161.42857 161.42857,-161.42857 89.15454,0 161.42858,72.27403 161.42858,161.42857 z"
+         sodipodi:ry="161.42857"
+         sodipodi:rx="161.42857"
+         sodipodi:cy="320.93362"
+         sodipodi:cx="288.57144"
+         id="path2985-2"
+         style="fill:#313e8c;fill-opacity:0.69581747;fill-rule:evenodd;stroke:#797162;stroke-width:4.69999980999999956;stroke-miterlimit:4;stroke-opacity:0.50178144999999996;stroke-dasharray:none"
+         sodipodi:type="arc" />
+      <flowRoot
+         transform="translate(123.18207,218.29523)"
+         style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:#3d2f13;stroke-width:0.80000001;stroke-miterlimit:4;stroke-opacity:0.50178145;stroke-dasharray:none;font-family:Sans"
+         id="flowRoot3755-1"
+         xml:space="preserve"><flowRegion
+           style="fill:url(#radialGradient3781-7);fill-opacity:1;stroke:url(#linearGradient3771-5)"
+           id="flowRegion3757-2"><rect
+             style="fill:#ffffff;fill-opacity:1;stroke:#3d2f13;stroke-width:0.80000001;stroke-miterlimit:4;stroke-opacity:0.50178145;stroke-dasharray:none"
+             y="252.36218"
+             x="182.85715"
+             height="118.57143"
+             width="268.57141"
+             id="rect3759-29" /></flowRegion><flowPara
+           style="text-align:center;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:#3d2f13;stroke-width:0.80000001;stroke-miterlimit:4;stroke-opacity:0.50178145;stroke-dasharray:none"
+           id="flowPara3763-4">Distributed</flowPara><flowPara
+           style="text-align:center;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:#3d2f13;stroke-width:0.80000001;stroke-miterlimit:4;stroke-opacity:0.50178145;stroke-dasharray:none"
+           id="flowPara5454">ledger</flowPara></flowRoot>      <text
+         xml:space="preserve"
+         style="font-size:61.64955139px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#fcf1f1;fill-opacity:0.96212116;stroke:#e81322;stroke-width:0.5;stroke-miterlimit:4;stroke-opacity:0.50178145;stroke-dasharray:none;font-family:Unanimous BRK;-inkscape-font-specification:Unanimous BRK"
+         x="365.04437"
+         y="605.67358"
+         id="text5456"
+         sodipodi:linespacing="125%"><tspan
+           sodipodi:role="line"
+           id="tspan5458"
+           x="365.04437"
+           y="605.67358"
+           style="font-size:36.98973083px;font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#fcf1f1;fill-opacity:0.96212116;stroke:#e81322;stroke-width:0.5;stroke-miterlimit:4;stroke-opacity:0.50178145;stroke-dasharray:none;font-family:Gentium;-inkscape-font-specification:Gentium Italic">Blockchain</tspan></text>
+    </g>
+    <text
+       sodipodi:linespacing="125%"
+       id="text5456-5"
+       y="246.476"
+       x="192.67743"
+       style="font-size:61.64955139px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#fcf1f1;fill-opacity:0.96212116;stroke:#e81322;stroke-width:0.5;stroke-miterlimit:4;stroke-opacity:0.50178145;stroke-dasharray:none;font-family:Unanimous BRK;-inkscape-font-specification:Unanimous BRK"
+       xml:space="preserve"><tspan
+         style="font-size:36.98973083px;font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#fcf1f1;fill-opacity:0.96212116;stroke:#e81322;stroke-width:0.5;stroke-miterlimit:4;stroke-opacity:0.50178145;stroke-dasharray:none;font-family:Gentium;-inkscape-font-specification:Gentium Italic"
+         y="246.476"
+         x="192.67743"
+         id="tspan5458-3"
+         sodipodi:role="line">a bitcoin</tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text5456-5-1"
+       y="247.92831"
+       x="475.72723"
+       style="font-size:61.64955139px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#fcf1f1;fill-opacity:0.96212116;stroke:#e81322;stroke-width:0.5;stroke-miterlimit:4;stroke-opacity:0.50178145;stroke-dasharray:none;font-family:Unanimous BRK;-inkscape-font-specification:Unanimous BRK"
+       xml:space="preserve"><tspan
+         style="font-size:36.98973083px;font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#fcf1f1;fill-opacity:0.96212116;stroke:#e81322;stroke-width:0.5;stroke-miterlimit:4;stroke-opacity:0.50178145;stroke-dasharray:none;font-family:Gentium;-inkscape-font-specification:Gentium Italic"
+         y="247.92831"
+         x="475.72723"
+         id="tspan5458-3-6"
+         sodipodi:role="line">Bitcoin</tspan></text>
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot3197"
+       style="fill:black;stroke:none;stroke-opacity:1;stroke-width:1px;stroke-linejoin:miter;stroke-linecap:butt;fill-opacity:1;font-family:Gentium Basic;font-style:normal;font-weight:normal;font-size:12px;line-height:125%;letter-spacing:0px;word-spacing:0px;-inkscape-font-specification:Gentium Basic;font-stretch:normal;font-variant:normal"><flowRegion
+         id="flowRegion3199"><rect
+           id="rect3201"
+           width="114.14724"
+           height="42.426407"
+           x="301.02545"
+           y="422.02698" /></flowRegion><flowPara
+         id="flowPara3203"></flowPara></flowRoot>    <g
+       id="g3993"
+       transform="translate(401.03056,-42.426407)">
+      <rect
+         y="409.90515"
+         x="-123.2386"
+         height="115.15739"
+         width="234.35539"
+         id="rect3987"
+         style="fill:url(#linearGradient4008);fill-opacity:1;stroke:#3d3d3d;stroke-width:3.50000000000000000;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:106.99996366000000592" />
+      <flowRoot
+         transform="translate(-293.13402,161.27404)"
+         style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#dbd800;fill-opacity:1;stroke:#ef0000;stroke-width:0.80000000999999998;stroke-miterlimit:4;stroke-opacity:0.84761906;stroke-dasharray:none;font-family:Sans"
+         id="flowRoot3755-03"
+         xml:space="preserve"><flowRegion
+           style="fill:url(#radialGradient3781-3);fill-opacity:1;stroke:url(#linearGradient3991)"
+           id="flowRegion3757-7"><rect
+             style="fill:#dbd800;fill-opacity:1;stroke:#ef0000;stroke-width:0.80000000999999998;stroke-miterlimit:4;stroke-opacity:0.84761906;stroke-dasharray:none"
+             y="252.36218"
+             x="182.85715"
+             height="107.45973"
+             width="223.11453"
+             id="rect3759-8" /></flowRegion><flowPara
+           style="fill:#dbd800;fill-opacity:1;stroke:#ef0000;stroke-width:0.80000000999999998;stroke-miterlimit:4;stroke-opacity:0.84761906;stroke-dasharray:none"
+           id="flowPara3761-4">The TCP/IP</flowPara><flowPara
+           style="fill:#dbd800;fill-opacity:1;stroke:#ef0000;stroke-width:0.80000000999999998;stroke-miterlimit:4;stroke-opacity:0.84761906;stroke-dasharray:none"
+           id="flowPara3763-17">of Money</flowPara><flowPara
+           id="flowPara3209"
+           style="fill:#dbd800;fill-opacity:1;stroke:#ef0000;stroke-width:0.80000000999999998;stroke-miterlimit:4;stroke-opacity:0.84761906;stroke-dasharray:none" /></flowRoot>    </g>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 216.17265,251.31121 18.18274,0"
+       id="path4016"
+       inkscape:connector-curvature="0" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 475.74124,252.32136 18.18274,0"
+       id="path4016-2"
+       inkscape:connector-curvature="0" />
+  </g>
+</svg>

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="744.09448819"
+   height="1052.3622047"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.48.5 r10040"
+   sodipodi:docname="Challenge.svg">
+  <defs
+     id="defs4" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.4"
+     inkscape:cx="203.35505"
+     inkscape:cy="690.53908"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1920"
+     inkscape:window-height="1111"
+     inkscape:window-x="-2"
+     inkscape:window-y="-3"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Livello 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <g
+       id="g3892">
+      <path
+         sodipodi:nodetypes="ccccccccccccccccccccccc"
+         inkscape:connector-curvature="0"
+         id="path2985-0"
+         d="m 392.75152,477.16719 -80.81939,-45.32294 -56.75256,53.91437 -28.3272,-52.3523 -53.53868,48.15256 15.10003,-69.52867 -90.170408,15.54925 74.996948,-57.68362 -103.503012,-67.98698 104.870082,-6.23369 -27.67036,-69.40467 90.58097,52.1984 20.66318,-80.5262 64.13841,64.13783 68.90556,-57.58688 21.75583,60.22742 112.99611,-91.4696 -70.3337,152.11781 53.4503,23.61008 -56.34687,16.03107 70.36384,46.76325 -119.57902,3.48968 z"
+         inkscape:transform-center-y="-6.5552404"
+         inkscape:transform-center-x="-13.694396"
+         style="fill:#de0000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.56707792999999995;stroke-miterlimit:4;stroke-opacity:0.50178144999999996" />
+      <path
+         sodipodi:nodetypes="ccccccccccccccccccccccc"
+         inkscape:connector-curvature="0"
+         id="path2985"
+         d="m 387.27419,464.41135 -80.81939,-45.32294 -56.75256,53.91437 -28.3272,-52.3523 -53.53869,48.15256 15.10004,-69.52867 L 92.765974,414.82362 167.76292,357.14 64.259909,289.15302 169.13,282.91933 l -27.67037,-69.40467 90.58098,52.1984 20.66318,-80.5262 64.13841,64.13783 68.90556,-57.58688 21.75583,60.22742 112.99611,-91.4696 -70.3337,152.11781 53.4503,23.61008 -56.34687,16.03107 70.36384,46.76325 -119.57902,3.48968 z"
+         inkscape:transform-center-y="-6.5552404"
+         inkscape:transform-center-x="-13.694396"
+         style="fill:#f8f507;fill-opacity:1;fill-rule:evenodd;stroke:#e81322;stroke-width:0.56707793;stroke-miterlimit:4;stroke-opacity:0.50178145" />
+      <flowRoot
+         transform="matrix(1.1788088,-0.35989937,0.33134823,1.2803827,-127.26812,-27.754114)"
+         style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ff0505;fill-opacity:1;stroke:#f4f4f4;stroke-opacity:1;font-family:Unanimous BRK;-inkscape-font-specification:Unanimous BRK"
+         id="flowRoot3756"
+         xml:space="preserve"><flowRegion
+           id="flowRegion3758"><rect
+             style="fill:#ff0505;fill-opacity:1;stroke:#f4f4f4;stroke-opacity:1"
+             y="323.03204"
+             x="161.6244"
+             height="103.03556"
+             width="237.38585"
+             id="rect3760" /></flowRegion><flowPara
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#ff0505;fill-opacity:1;stroke:#f4f4f4;stroke-opacity:1;font-family:Sans;-inkscape-font-specification:Sans"
+           id="flowPara3762">Challenge!</flowPara></flowRoot>    </g>
+  </g>
+</svg>

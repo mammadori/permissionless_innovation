@@ -1,0 +1,282 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% Copyright 2014 - Marco Amadori <marco.amadori@gmail.com>
+%
+% Licenza: Creative Commons 3.0 CC-BY-SA
+% 
+% http://creativecommons.org/licenses/by-sa/3.0/it/deed.it
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\documentclass[english,compress]{beamer}
+\mode<presentation>{
+  \usetheme{Warsaw}
+  %\usecolortheme{wolverine}
+  \useoutertheme[subsection=false]{smoothbars}
+  \setbeamercovered{transparent}
+  %\beamerdefaultoverlayspecification{<+->}
+}
+
+\usepackage[italian]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{times}
+
+\usepackage{subfigure}
+\usepackage{multicol}
+\usepackage{amsmath}
+\usepackage{epsfig}
+\usepackage{graphicx}
+\usepackage[all,knot]{xy}
+\xyoption{arc}
+\usepackage{url}
+\usepackage{multimedia}
+\usepackage{hyperref}
+\usepackage{setspace}
+\usepackage{textcomp}
+\usepackage{soul}
+
+\title[Bitcoin Research Challenges]{Permissionless Innovation}
+\subtitle{Bitcoin Research Challenges \\ The Dawn of Decentralized Computing}
+\author[Marco Amadori]{Marco Amadori <amadori@fbk.eu> \\ <marco.amadori@gmail.com>}
+\institute{Fondazione Bruno Kessler --- \url{https://www.fbk.eu}}
+\date{\scriptsize Trento --- \vspace{.10cm}10 October 2014}
+
+
+%%%%% Figures %%%%%%
+\pgfdeclareimage[height=0.5cm]{ccbysa}{figures/by-sa.pdf}
+\pgfdeclareimage[height=1.6cm]{logo}{figures/fbk_logo.jpg}
+\pgfdeclareimage[height=6cm]{vcmoney}{figures/vc_invest.png}
+\pgfdeclareimage[height=6cm]{metrics}{figures/bitcoin_metrics2014.png}
+\pgfdeclareimage[height=6cm]{overview}{figures/Bitcoin_Overview.png}
+\pgfdeclareimage[height=6cm]{inflation}{figures/inflation.png}
+\pgfdeclareimage[height=1.6cm]{bitcoin}{figures/Bitcoin.png}
+\pgfdeclareimage[height=6cm]{whatis}{figures/WhatIsBitcoin.pdf}
+\pgfdeclareimage[height=2cm]{challenge}{figures/Challenge.pdf}
+\pgfdeclareimage[height=5cm]{transaction}{figures/Transaction_Double_Entry.png}
+\pgfdeclareimage[height=4cm]{wallet}{figures/fbk_wallet.pdf}
+
+
+\newcommand{\powemph}[1]{\textbf{\underline{#1}}}
+\newcommand{\challenge}{\pgfuseimage{challenge}}
+\newcommand{\citazione}[2]{
+  \begin{exampleblock}{}
+  \begin{scriptsize}\emph{``{#1}''}\end{scriptsize}
+  \vskip0.5mm
+  \hspace*\fill{\begin{tiny}--- {#2} \end{tiny}}
+  \end{exampleblock}
+}
+
+\begin{document}
+
+\begin{frame}[plain]
+  \titlepage
+  \begin{center}%
+    \pgfuseimage{bitcoin}%
+    \hspace{1cm}%
+    \pgfuseimage{logo}%
+    \end{center}%
+\end{frame}
+
+\logo{\pgfuseimage{ccbysa}}
+
+\section{What is Bitcoin?}
+
+\begin{frame}[<+->]{Definitions}
+
+\begin{exampleblock}{Definiton of Bitcoin}
+Bitcoin is a peer-to-peer network
+that maintains a public distributed ledger of 
+digital math-based assets known as bitcoins.
+\end{exampleblock}
+
+\begin{exampleblock}{Definiton of Computer}
+A computer is a system that takes data in input, elaborate them via a mathematical model and outputs data without interpreting them.
+\end{exampleblock}
+
+\onslide<+-> How hard is to forecast applications like videogames and social network out of this definition?
+
+
+\end{frame}
+
+\begin{frame}{What is ``Bitcoin''}{The Currency, the Network, the Ledger}
+\begin{center}
+\pgfuseimage{whatis}
+\end{center}
+\end{frame}
+
+\begin{frame}{The Currency}{The Grey Metal Metaphore}
+
+``As a thought experiment, imagine there was a base metal as scarce as gold but with the following properties:
+
+\begin{itemize}
+ \item boring grey in colour
+ \item not a good conductor of electricity
+ \item not particularly strong, but not ductile or easily malleable either
+ \item not useful for any practical or ornamental purpose
+ \item and one special, magical property: \powemph{can be transported over a communications channel}''
+\end{itemize}
+
+\em{Satoshi Nakamoto -- 27 August 2010}
+\end{frame}
+
+\begin{frame}{The Currency}{Some information}
+ \begin{itemize}
+  \item The supply of bitcoins is fixed at 21 millions, (now $\sim$13 M)
+  \item Each bitcoin (BTC) can be divided in $10^8$ units (\mbox{1/100 000 000} is called one \emph{satoshi} )
+  \item The network tends to produce 25 new bitcoins every 10 minutes (block reward)
+  \item The block reward is halved every $\sim$4 years (210 000 blocks)
+  \item We are in the $2^{nd}$ reward era out of 34 (rewards ends in 2140)
+  \item 1 BTC = 310 € on online exchanges
+ \end{itemize}
+
+\end{frame}
+
+\begin{frame}{The Currency}{Predictable Money Supply}
+\pgfuseimage{inflation}
+\end{frame}
+
+\begin{frame}{Overview of the Network}
+\pgfuseimage{overview}
+
+
+\begin{scriptsize}Real time visuals: \url{http://bitcoinglobe.com/}\end{scriptsize}
+\end{frame}
+
+\section{Who invented Bitcoin?}
+
+\begin{frame}{Who Invented Bitcoin?}{Satoshi Nakamoto}
+
+\begin{scriptsize}\begin{itemize}
+\item Satoshi Nakamoto, in 2008 publishes a white paper, ``Bitcoin: a Peet-to-Peer Electronic Cash System'' via ``The Cryptography Mailing List''.
+ \item In 2009--2011 he wrote a lot of posts (80000 words, the size of a novel) in flawless english with British colloquialisms (aside only the first post where he used American spellings).
+ \item Satoshi is probably a pseudonym for a developer or a group, “vanished” from the web in April 2011 because he “moved to other things” 
+ \item If he is not a group, he is a world class programmer, with deep knowledge of C++, economics, cryptography and peer-to-peer networking.
+ \item His timestamps speculation are about either east-coast US with a fairly normal sleep schedule or western Europe with a \emph{coder} sleep schedule (probably not Japan)
+\end{itemize}\end{scriptsize}
+
+\challenge
+\end{frame}
+
+\section{Why Bitcoin?}
+
+\begin{frame}{Trusted third party}
+
+\citazione{What is needed is an electronic payment system based on cryptographic proof
+instead of trust, allowing any two willing parties to transact directly with each other 
+without the need for a trusted third party.”}{Satoshi Nakamoto,
+"Bitcoin: A Peer-to-Peer Electronic Cash System” -- October 31, 2008}
+
+\begin{exampleblock}{}
+Trustless does not mean that we do not need to trust \emph{anything}, but that we do not need to trust \emph{anyone}. 
+\end{exampleblock}
+
+\end{frame}
+
+\section{How does Bitcoin works?}
+
+\begin{frame}{Consensus in a decentralized system}{The Byzantine Generals' problem}
+
+\citazione{A group of generals of the Byzantine army camped with their troops around an 
+enemy city. Communicating only by messenger, the generals must agree upon a 
+common battle plan. However, one or more of them may be traitors who will try to 
+confuse the others. The problem is to find an algorithm to ensure that the loyal 
+generals will reach agreement.}{Marshall Pease, Robert Shosthak and Leslie Lamport, The Byzantine Generals Problem}
+
+\end{frame}
+
+\begin{frame}{Transactions}
+  \pgfuseimage{transaction}
+  
+  \begin{minipage}{0.8 \textwidth}
+   \citazione{\textbf{spending} is signing a transaction which transfers value from a previous transaction over to a new owner identified by a bitcoin address}{Andreas M. Antonopoulos -- Mastering Bitcoin -- O'Reilly 2014}
+  \end{minipage}
+\end{frame}
+
+\begin{frame}{A Paper Wallet}{Vires in numeris}
+ \pgfuseimage{wallet}
+ \vfill
+ \begin{tiny}
+ \url{https://blockchain.info/address/1fbk5AYjA7wLdwbru2CunWEuToBu1USsX}
+ \end{tiny}
+\end{frame}
+
+\section{The Blockchain}
+
+\begin{frame}{Blockchain}{Decentralized Ledger}
+ 
+\end{frame}
+
+
+\begin{frame}{What is happening?}{Status of Venture Capitals}
+  \pgfuseimage{vcmoney}
+\end{frame}
+
+\begin{frame}{Bitcoin is difficult}{Why FBK?}
+
+ \begin{itemize}
+  \item ICT is about data, communication and technologies
+  \item Money is Data, Data is Money (Big Data, Secure computing)
+  \item Cryptography is hard
+  \item Peer-to-peer is hard
+  \item Enterprenuers need Technology partners
+ \end{itemize}
+ 
+\citazione{Every informed person needs to know about Bitcoin because it might be one of the world’s most important developments.}{Leon Louw, Nobel Peace prize nominee}
+
+\citazione{Not having an internet strategy in 1995 is the equivalent of not having a bitcoin strategy now.}{
+Moe Levin (Bitpay CEO)}
+
+\end{frame}
+
+
+
+
+
+\begin{frame}{The Technology}{Underliyng value}
+
+\begin{exampleblock}{Eric Schmidt (Google's former CEO)}
+Bitcoin is a remarkable cryptographic achievement and the ability to create 
+something that is not duplicable in the digital world has enormous value.
+\end{exampleblock}
+
+
+\end{frame}
+
+
+\begin{frame}{Usage Metrics}{Latest quarter}
+
+\pgfuseimage{metrics}
+
+\begin{itemize}
+ \item \url{http://coinmap.org/} 
+ \item 
+\end{itemize}
+
+\end{frame}
+
+
+
+
+
+\section{Note finali}
+
+\begin{frame}{What Next?}
+ \begin{itemize}
+  \item FBKcoin -- The ``Kessler''®
+  \item PATcoin -- meal vouchers, \emph{glocal} social credits
+  \item Trentino as the new ``Bitcoin Valley''
+  \item Deep social and economic impact papers
+  \item The Bitcoin Research Center
+  \item \st{A new Research Unit}
+ \end{itemize}
+ 
+  \begin{block}{These slides}
+  \url{http://goo.gl/BbzhTT} [github: mammadori]
+  \end{block}
+
+\end{frame}
+
+
+\end{document}
+
