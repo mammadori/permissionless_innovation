@@ -61,8 +61,8 @@
 \pgfdeclareimage[height=6cm]{fullnode}{figures/fullnode.pdf}
 \pgfdeclareimage[height=6cm]{hashrate}{figures/hashrate.png}
 \pgfdeclareimage[height=6cm]{cryptocap}{figures/cryptomarketcap.png}
-
-
+\pgfdeclareimage[height=4cm]{dao}{figures/1920px-Quadrant_Chart_for_Classifying_DAOs.png}
+\pgfdeclareimage[height=3cm]{colored}{figures/colored-coin-diagram.jpg}
 
 \newcommand{\powemph}[1]{\textbf{\underline{#1}}}
 \newcommand{\challenge}{\pgfuseimage{challenge}}
@@ -286,40 +286,114 @@ impact on the economy has been no greater than the fax machine's.}{Paul Robin Kr
   \pgfuseimage{vcmoney}
 \end{frame}
 
+\begin{frame}{Permissionless Innovation}{Bitcoin and Internet}
 % Permissionless Innovation
+\begin{itemize}
+ \item Before Internet point to point communication between computers was available
+ \item You needed a contract or permission from a Telco inorder to innovate
+ \item Low level of Innovation, fax-machine, poor video conferences, not much more
+ \item Bitcoin opens an era of financial Innovation (programmable money)
+ \item The Blockchain permits Decentralized Computing
+ \item Internet of Things: IBM's ``Adept'' will use the Blockchain 
+\end{itemize}
+\end{frame}
+
 % blockchain as Permanent DB 
+\begin{frame}{Blockchain as DB}{Permanent Storage}
 % Proof of existence
+\begin{itemize}
+ \item You could write important data in the Blockchain (for free or for a small fee)
+ \item What is written in the Blockchain is ``forever''
+ \item No one can remove or alter Blockchain information
+ \item Example Application: Proof of Existence, Decentralization of Notary services 
+\end{itemize}
+ 
+\begin{tiny}
+ \url{http://www.proofofexistence.com/detail/e3c21569e6ba5b488d5c416e8fc6ea166551cf64076f8f337ddc8cc8f9936bc0}
+\end{tiny}
+\end{frame}
+
+\begin{frame}{Generic Asset Ledger}{Coloring Coins}
+\begin{itemize}
+\item Tracking bitcoin transaction to permits generic asset trading
+\item ``coloring coins'' enables distributed exchanges
+\item anyone can issue a colored coin
+\end{itemize}
+\vfill
+\pgfuseimage{colored}
+\end{frame}
+
+
+\begin{frame}{Multisignatures}{Enabling Smart Contracts}
+\begin{itemize}
+\item Wallets needs more that one signature to send a transaction
+\item k/n multisignatures are available in Bitcoin since 2012
+\item Smart Contracts are Trustless Unbreakable agreements
+\item Example: micro and nanopayments trustless channels
+\item Example: decentralized escrow (OpenBazaar is a decentralized Ebay)
+\item Example: Smart Properties
+\end{itemize}
+
+\end{frame}
+
+\section{Altcoins}
+
 % colored coins, mastercoin, counterparty, sidechains
 % multisignatures -> decentralized escrow, ebay, nanopayments channels
 % smart contracts
 % DAO ethereum, mastercoin, counterparty
 % Bitcoin for good
 
-
-\section{Altcoins}
-
 \begin{frame}{Crypto currencies}{640 currencies should be enough for everyone}
-\pgfuseimage{cryptocap}
+ \begin{columns}
+  \begin{column}{0.5 \textwidth}
+ \pgfuseimage{cryptocap}  
+  \end{column}
+  
+ \begin{column}{0.4 \textwidth}
+   \begin{itemize}
+    \item Initially forks of bitcoin codebase
+    \item Purpose Specific or Experimental testbed
+    \item Different parameters or hash Algorithm
+    \item Tied to bitcoin in the exchanges they become real too
+    \item Less network effect, no real threat to bitcoin
+   \end{itemize}
+  \end{column}
+  \hfill
+  \end{columns}
 \end{frame}
 
+\begin{frame}{Appcoins}{Ethereum example}
+\begin{itemize}
+ 
+ \item Bitcoin full nodes execute a non Turing Complete script (handling of transactions, signatures)
+ \item What is the script is Turing Complete?
+ \item Distributed Applications
+ \item Distributed Autonomous Corporations
+ \end{itemize}
+
+ \pgfuseimage{dao}
+ 
+\end{frame}
+
+\begin{frame}{Bitcoin for good}{Payment system for developing countries}
+\begin{itemize}
+ \item 50 \% of the world is unbanked
+ \item Kenya: 50 \% of gdp is transacted via Mpesa, SMS money
+ \item Remittances: $\sim$400 B\$ market, 8\% average fee
+ \item Microcredits
+\end{itemize}
+\end{frame}
 
 \begin{frame}{Bitcoin is difficult}{Why FBK?}
-
- \begin{itemize}
+\begin{itemize}
   \item ICT is about data, communication and technologies
   \item Money is Data, Data is Money (Big Data, Secure computing)
   \item Cryptography is hard
   \item Peer-to-peer is hard
-  \item Enterprenuers need Technology partners
+  \item Enterprenuer needs Technology partners
  \end{itemize}
- 
-
-
 \end{frame}
-
-
-
-
 
 
 \section{Final Notes}
@@ -330,7 +404,7 @@ impact on the economy has been no greater than the fax machine's.}{Paul Robin Kr
   \item PATcoin -- meal vouchers, \emph{glocal} social credits
   \item Trentino as the new ``Bitcoin Valley''
   \item Deep social and economic impact papers
-  \item The Bitcoin Research Center
+  \item Becoming The Bitcoin Research Center ;-)
   \item \st{A new Research Unit}
  \end{itemize}
  
