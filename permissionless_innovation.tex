@@ -40,7 +40,7 @@
 \subtitle{Bitcoin Research Challenges \\ The Dawn of Decentralized Computing}
 \author[Marco Amadori]{Marco Amadori <amadori@fbk.eu> \\ <marco.amadori@gmail.com>}
 \institute{Fondazione Bruno Kessler --- \url{https://www.fbk.eu}}
-\date{\scriptsize Trento --- \vspace{.10cm}10 October 2014}
+\date{\scriptsize Trento --- \vspace{.10cm}16 October 2014}
 
 
 %%%%% Figures %%%%%%
@@ -112,6 +112,34 @@ A computer is a system that takes data in input, elaborate them via a mathematic
 \end{center}
 \end{frame}
 
+\begin{frame}{The currency}{What is money?}
+\begin{exampleblock}{Aristotle definition on money}
+\begin{enumerate}
+ \item It must be durable. Money must stand the test of time
+ and the elements. It must not fade, corrode, or change through time.
+ \item It must be portable. Money hold a high amount of 'worth' relative to its weight and size.
+ \item It must be divisible. Money should be relatively easy to separate
+ and re-combine without affecting its fundamental characteristics.
+ \item It must have intrinsic value. This value of money should be independent 
+ of any other object and contained in the money itself.
+\end{enumerate}
+\end{exampleblock}
+\end{frame}
+
+\begin{frame}{The currency}{What is money?}
+
+\begin{exampleblock}{Modern definition on money}
+\begin{itemize}
+ \item Exchange of value
+ \item Unit of account
+ \item Store of value
+\end{itemize}
+\end{exampleblock}
+\end{frame}
+
+
+
+
 \begin{frame}{The Currency}{The Grey Metal Metaphore}
 
 ``As a thought experiment, imagine there was a base metal as scarce as gold but with the following properties:
@@ -155,7 +183,7 @@ A computer is a system that takes data in input, elaborate them via a mathematic
 \begin{frame}{Who Invented Bitcoin?}{Satoshi Nakamoto}
 
 \begin{scriptsize}\begin{itemize}
-\item Satoshi Nakamoto, in 2008 publishes a white paper, ``Bitcoin: a Peet-to-Peer Electronic Cash System'' via ``The Cryptography Mailing List''.
+\item Satoshi Nakamoto, in 2008 publishes a white paper, ``Bitcoin: a Peer-to-Peer Electronic Cash System'' via ``The Cryptography Mailing List''.
  \item In 2009--2011 he wrote a lot of posts (80000 words, the size of a novel) in flawless english with British colloquialisms (aside only the first post where he used American spellings).
  \item Satoshi is probably a pseudonym for a developer or a group, “vanished” from the web in April 2011 because he “moved to other things” 
  \item If he is not a group, he is a world class programmer, with deep knowledge of C++, economics, cryptography and peer-to-peer networking.
@@ -209,7 +237,7 @@ generals will reach agreement.}{Marshall Pease, Robert Shosthak and Leslie Lampo
  \pgfuseimage{keytoaddr}
  \vfill
  Elliptic Curve Digital Signature Algorithm -- secp256k1 \\
- Hash = RIPEMD160(SHA256(pubkey)
+ Hash = RIPEMD160(SHA256(pubkey))
 \end{tiny}
 \end{frame}
 
@@ -243,7 +271,7 @@ generals will reach agreement.}{Marshall Pease, Robert Shosthak and Leslie Lampo
      \begin{scriptsize}
       \begin{enumerate}
        \item SHA256(SHA256(block header) + nonce) < \emph{target} ?
-       \item The Bitcoin Network will rewards me (25 BTC)
+       \item The Bitcoin Network will reward me (25 BTC)
       \end{enumerate}
       Difficulty (``inverse'' of target) will adapt to global hashrate every $\sim$ 2 weeks (2016 blocks)
      \end{scriptsize}
@@ -289,8 +317,8 @@ impact on the economy has been no greater than the fax machine's.}{Paul Robin Kr
 \begin{frame}{Permissionless Innovation}{Bitcoin and Internet}
 % Permissionless Innovation
 \begin{itemize}
- \item Before Internet point to point communication between computers was available
- \item You needed a contract or permission from a Telco inorder to innovate
+ \item Before Internet, point-to-point communication between computers was available
+ \item You needed a contract or permission from a Telco in order to innovate
  \item Low level of Innovation, fax-machine, poor video conferences, not much more
  \item Bitcoin opens an era of financial Innovation (programmable money)
  \item The Blockchain permits Decentralized Computing
@@ -315,7 +343,7 @@ impact on the economy has been no greater than the fax machine's.}{Paul Robin Kr
 
 \begin{frame}{Generic Asset Ledger}{Coloring Coins}
 \begin{itemize}
-\item Tracking bitcoin transaction to permits generic asset trading
+\item Tracking bitcoin transaction to allow generic asset trading
 \item ``coloring coins'' enables distributed exchanges
 \item anyone can issue a colored coin
 \end{itemize}
@@ -326,9 +354,9 @@ impact on the economy has been no greater than the fax machine's.}{Paul Robin Kr
 
 \begin{frame}{Multisignatures}{Enabling Smart Contracts}
 \begin{itemize}
-\item Wallets needs more that one signature to send a transaction
+\item Wallets need more than one signature to send a transaction
 \item k/n multisignatures are available in Bitcoin since 2012
-\item Smart Contracts are Trustless Unbreakable agreements
+\item Smart Contracts are Trustless Unbreakable Agreements
 \item Example: micro and nanopayments trustless channels
 \item Example: decentralized escrow (OpenBazaar is a decentralized Ebay)
 \item Example: Smart Properties
@@ -353,10 +381,10 @@ impact on the economy has been no greater than the fax machine's.}{Paul Robin Kr
  \begin{column}{0.4 \textwidth}
    \begin{itemize}
     \item Initially forks of bitcoin codebase
-    \item Purpose Specific or Experimental testbed
+    \item Purpose-Specific or Experimental testbed
     \item Different parameters or hash Algorithm
-    \item Tied to bitcoin in the exchanges they become real too
-    \item Less network effect, no real threat to bitcoin
+    \item Due to being tied to bitcoin, they become real money too (crypto exchanges)
+    \item Less network effect, no real threat to Bitcoin
    \end{itemize}
   \end{column}
   \hfill
@@ -366,8 +394,9 @@ impact on the economy has been no greater than the fax machine's.}{Paul Robin Kr
 \begin{frame}{Appcoins}{Ethereum example}
 \begin{itemize}
  
- \item Bitcoin full nodes execute a non Turing Complete script (handling of transactions, signatures)
- \item What is the script is Turing Complete?
+ \item Bitcoin full nodes execute a Non-Turing Complete script (handling of transactions, signatures)
+ \item What if the script is Turing Complete?
+ \item A platform for Smart Contracts
  \item Distributed Applications
  \item Distributed Autonomous Corporations
  \end{itemize}
@@ -388,10 +417,10 @@ impact on the economy has been no greater than the fax machine's.}{Paul Robin Kr
 \begin{frame}{Bitcoin is difficult}{Why FBK?}
 \begin{itemize}
   \item ICT is about data, communication and technologies
-  \item Money is Data, Data is Money (Big Data, Secure computing)
+  \item Money is Data, Data is Money (Big Data, Secure Computing)
   \item Cryptography is hard
   \item Peer-to-peer is hard
-  \item Enterprenuer needs Technology partners
+  \item Enterpreneurs need Technology partners
  \end{itemize}
 \end{frame}
 
