@@ -36,11 +36,11 @@
 \usepackage{textcomp}
 \usepackage{soul}
 
-\title[Bitcoin Research Challenges]{Permissionless Innovation}
-\subtitle{Bitcoin Research Challenges \\ The Dawn of Decentralized Computing}
+\title[Bitcoin Overview]{Permissionless Innovation}
+\subtitle{The Dawn of Decentralized Computing}
 \author[Marco Amadori]{Marco Amadori <amadori@fbk.eu> \\ <marco.amadori@gmail.com>}
 \institute{Fondazione Bruno Kessler --- \url{https://www.fbk.eu}}
-\date{\scriptsize Trento --- \vspace{.10cm}16 October 2014}
+\date{\scriptsize Trento --- \vspace{.10cm}6 November 2014}
 
 
 %%%%% Figures %%%%%%
@@ -102,6 +102,17 @@ A computer is a system that takes data in input, elaborate them via a mathematic
 \end{exampleblock}
 
 \onslide<+-> How hard is to forecast applications like videogames and social network out of this definition?
+
+
+\end{frame}
+
+\begin{frame}{What is ``Bitcoin''}{A catchy but misleading name}
+\begin{itemize}
+ \item Bitcoin is a two words name (Bit Coin)
+ \item it is a nice name for a Company or a Product, not for a Protocol (FaceBook, WalMart)
+ \item TCP/IP is not called Bitflux or Netwire (Trasmission Control Protocol/Internet Protocol)
+ \item Bitcoin could better indentified as P2P/DCP (Peer-to-Peer Digital Currency Protocol)
+\end{itemize}
 
 
 \end{frame}
@@ -241,6 +252,27 @@ generals will reach agreement.}{Marshall Pease, Robert Shosthak and Leslie Lampo
 \end{tiny}
 \end{frame}
 
+
+\begin{frame}{Wallet Types}
+ \begin{itemize}
+  \item Hot Wallet (online wallet)
+  \begin{itemize}
+    \item Online Wallet without control of private keys	
+    \item Online Wallet with control of private keys
+    \item Desktop PC wallet (Full node, SPV Wallets)
+    \item Smartphone Wallet
+  \end{itemize}
+  
+  \item Cold Storage (disconnected wallet)
+  \item Hardware Wallet (private keys not online)
+  \item Brain Wallet 
+  \item HD Wallets (Masterkey $\Rightarrow$ multiple private keys)
+  \item Multisignatures (p2hs)
+ \end{itemize}
+
+\end{frame}
+
+
 \section{The Blockchain}
 
 \begin{frame}{Chain of Blocks}{A Distributed Ledger}
@@ -272,10 +304,19 @@ generals will reach agreement.}{Marshall Pease, Robert Shosthak and Leslie Lampo
       \begin{enumerate}
        \item SHA256(SHA256(block header) + nonce) < \emph{target} ?
        \item The Bitcoin Network will reward me (25 BTC)
-      \end{enumerate}
-      Difficulty (``inverse'' of target) will adapt to global hashrate every $\sim$ 2 weeks (2016 blocks)
-     \end{scriptsize}
+       \end{enumerate}
+       \end{scriptsize}
+\begin{tiny}
+       This is a new type of Cryptographic Signature, a \textbf{DMMS} ---  \emph{Dynamic Membership Multi-party Signature}
+     
+     
+       Difficulty (``inverse'' of target) will adapt to global hashrate
+       every $\sim$ 2 weeks (2016 blocks)
+      \end{tiny}
+
+
    \end{exampleblock}
+   \vfill
   \end{column}
   \hfill
  \end{columns}
@@ -285,7 +326,7 @@ generals will reach agreement.}{Marshall Pease, Robert Shosthak and Leslie Lampo
  \pgfuseimage{hashrate}
 \end{frame}
 
-\section{Status}
+
 
 \begin{frame}{Random Quotes}{Taking Breath}
 
@@ -302,6 +343,18 @@ impact on the economy has been no greater than the fax machine's.}{Paul Robin Kr
 -- Nobel Memorial Prize in Economic Sciences (1998)}
 \end{frame}
 
+\begin{frame}{Security Issues}{Bitcoin attacks}
+\begin{itemize}
+ \item 51\% attack (50\% +1)
+ \item Finney or “Block Withholding” Attack
+ \item The Race Attack
+ \item Key Guessing / Collision Attacks
+ \item Non-Bitcoin / Infrastructure Attacks
+ \item Non-Technical Attacks / Scams
+\end{itemize}
+\end{frame}
+
+\section{Status}
 
 \begin{frame}{Usage Metrics}{Latest quarter}
 \pgfuseimage{metrics}
@@ -325,6 +378,8 @@ impact on the economy has been no greater than the fax machine's.}{Paul Robin Kr
  \item Internet of Things: IBM's ``Adept'' will use the Blockchain 
 \end{itemize}
 \end{frame}
+
+\section{Blockchain Apps}
 
 % blockchain as Permanent DB 
 \begin{frame}{Blockchain as DB}{Permanent Storage}
@@ -354,7 +409,7 @@ impact on the economy has been no greater than the fax machine's.}{Paul Robin Kr
 
 \begin{frame}{Multisignatures}{Enabling Smart Contracts}
 \begin{itemize}
-\item Wallets need more than one signature to send a transaction
+\item Wallets that need more than one signature to send a transaction
 \item k/n multisignatures are available in Bitcoin since 2012
 \item Smart Contracts are Trustless Unbreakable Agreements
 \item Example: micro and nanopayments trustless channels
@@ -379,12 +434,14 @@ impact on the economy has been no greater than the fax machine's.}{Paul Robin Kr
   \end{column}
   
  \begin{column}{0.4 \textwidth}
-   \begin{itemize}
+\begin{itemize}
+\begin{small}   
     \item Initially forks of bitcoin codebase
     \item Purpose-Specific or Experimental testbed
     \item Different parameters or hash Algorithm
     \item Due to being tied to bitcoin, they become real money too (crypto exchanges)
     \item Less network effect, no real threat to Bitcoin
+\end{small}
    \end{itemize}
   \end{column}
   \hfill
@@ -396,7 +453,7 @@ impact on the economy has been no greater than the fax machine's.}{Paul Robin Kr
  
  \item Bitcoin full nodes execute a Non-Turing Complete script (handling of transactions, signatures)
  \item What if the script is Turing Complete?
- \item A platform for Smart Contracts
+ \item A platform for Smart Contracts \begin{scriptsize}\url{http://www.ethereum.org}\end{scriptsize}
  \item Distributed Applications
  \item Distributed Autonomous Corporations
  \end{itemize}
@@ -404,6 +461,8 @@ impact on the economy has been no greater than the fax machine's.}{Paul Robin Kr
  \pgfuseimage{dao}
  
 \end{frame}
+
+\section{Misc}
 
 \begin{frame}{Bitcoin for good}{Payment system for developing countries}
 \begin{itemize}
@@ -414,31 +473,31 @@ impact on the economy has been no greater than the fax machine's.}{Paul Robin Kr
 \end{itemize}
 \end{frame}
 
-\begin{frame}{Bitcoin is difficult}{Why FBK?}
+\section{Final Notes}
+
+\begin{frame}{Why Security and Trust?}
 \begin{itemize}
-  \item ICT is about data, communication and technologies
-  \item Money is Data, Data is Money (Big Data, Secure Computing)
-  \item Cryptography is hard
-  \item Peer-to-peer is hard
-  \item Enterpreneurs need Technology partners
+  \item \textbf{Money is Data, Data is Money}
+  \item This dramatically increases the security requirements
+  \item Keys must be stored safely
+  \item New motivation for hacking of desktop and smarphone devices
+  \item Security in a decentralized system
  \end{itemize}
 \end{frame}
 
 
-\section{Final Notes}
-
-\begin{frame}{What Next?}
+\begin{frame}{What Next?}{Questions?}
  \begin{itemize}
-  \item FBKcoin -- The ``Kessler''®
-  \item PATcoin -- meal vouchers, \emph{glocal} social credits
-  \item Trentino as the new ``Bitcoin Valley''
-  \item Deep social and economic impact papers
-  \item Becoming The Bitcoin Research Center ;-)
-  \item \st{A new Research Unit}
+  \item Which topic needs more care? (next 2 events)
+  \item Security and Wallets handling
+  \item Protocol security issues
+  \item Cryptographic underliyng protocols security
+  \item Trustless Smart Contracts
+  \item New applications brainstorming
  \end{itemize}
  
   \begin{block}{These slides}
-  \url{http://goo.gl/BbzhTT} [github: mammadori]
+  \url{http://goo.gl/BbzhTT} [github: mammadori, branch ``st'']
   \end{block}
 
 \end{frame}
