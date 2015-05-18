@@ -1,11 +1,11 @@
 #!/usr/bin/make -f
+# apt-get install latex-make latex-beamer
+include LaTeX.mk
 
 BASENAME ?= permissionless_innovation
 
 slides: $(BASENAME).pdf
 
-# apt-get install latex-make latex-beamer
-include LaTeX.mk
 
 dist-clean:
 	rm -rf $(BASENAME).pdf $(BASENAME).aux $(BASENAME).nav \
