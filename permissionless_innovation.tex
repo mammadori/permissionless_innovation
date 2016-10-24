@@ -1,10 +1,10 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %
-% Copyright 2014 - Marco Amadori <marco.amadori@gmail.com>
+% Copyright 2016 - Marco Amadori <marco.amadori@gmail.com>
 %
-% Licenza: Creative Commons 3.0 CC-BY-SA
+% Licenza: Creative Commons 4.0 CC-BY-SA
 % 
-% http://creativecommons.org/licenses/by-sa/3.0/it/deed.it
+% http://creativecommons.org/licenses/by-sa/4.0/it/deed.it
 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
@@ -38,14 +38,14 @@
 
 \title[Bitcoin Overview]{Permissionless Innovation}
 \subtitle{The Dawn of Decentralized Computing}
-\author[Marco Amadori]{Marco Amadori <amadori@fbk.eu> \\ <marco.amadori@gmail.com>}
-\institute{Fondazione Bruno Kessler --- \url{https://www.fbk.eu}}
-\date{\scriptsize Trento --- \vspace{.10cm}6 November 2014}
+\author[Marco Amadori]{Marco <amadori@inbitcoin.it>}
+\institute{inbitcoin for Speck \& Tech --- \url{https://inbitcoin.it}}
+\date{\scriptsize Trento --- \vspace{.10cm}October, 24 - 2016}
 
 
 %%%%% Figures %%%%%%
 \pgfdeclareimage[height=0.5cm]{ccbysa}{figures/by-sa.pdf}
-\pgfdeclareimage[height=1.6cm]{logo}{figures/fbk_logo.jpg}
+\pgfdeclareimage[height=1.6cm]{logo}{figures/inbitcoin_logo_1280.png}
 \pgfdeclareimage[height=6cm]{vcmoney}{figures/vc_invest.png}
 \pgfdeclareimage[height=6cm]{metrics}{figures/bitcoin_metrics2014.png}
 \pgfdeclareimage[height=6cm]{overview}{figures/Bitcoin_Overview.png}
@@ -168,12 +168,12 @@ A computer is a system that takes data in input, elaborate them via a mathematic
 
 \begin{frame}{The Currency}{Some information}
  \begin{itemize}
-  \item The supply of bitcoins is fixed at 21 millions, (now $\sim$13 M)
+  \item The supply of bitcoins is fixed at 21 millions, (now $\sim$16 M)
   \item Each bitcoin (BTC) can be divided in $10^8$ units (\mbox{1/100 000 000} is called one \emph{satoshi} )
-  \item The network tends to produce 25 new bitcoins every 10 minutes (block reward)
+  \item The network tends to produce 12.5 new bitcoins every 10 minutes (block reward)
   \item The block reward is halved every $\sim$4 years (210 000 blocks)
-  \item We are in the $2^{nd}$ reward era out of 34 (rewards ends in 2140)
-  \item 1 BTC = 310 € on online exchanges
+  \item We are in the $3^{nd}$ reward era out of 34 (rewards ends in 2140)
+  \item 1 BTC = 600 € on online exchanges
  \end{itemize}
 
 \end{frame}
@@ -252,6 +252,23 @@ generals will reach agreement.}{Marshall Pease, Robert Shosthak and Leslie Lampo
 \end{tiny}
 \end{frame}
 
+\begin{frame}{There are no transactions}{just scripts}
+ \begin{itemize}
+  \item A transaction (TX) is a script
+  \begin{itemize}
+    \item the script language is called ``Script'' language
+    \item Script is a stack based language
+    \item Not Turing Complete by choice
+    \item A TX is valid if the script returns True
+    \item A TX has \emph{k inputs} and \emph{j outputs}
+   \end{itemize}
+  
+  \item Script P2PKH - Pay to Public Key Hash \\ 
+      \texttt{OP\_DUP OP\_HASH160 <pubKeyHash> OP\_EQUALVERIFY OP\_CHECKSIG}
+  \item Script P2SH - Pay to Script Hash \\ 
+      \texttt{OP\_HASH160 <scriptHash> OP\_EQUAL}
+ \end{itemize}
+\end{frame}
 
 \begin{frame}{Wallet Types}
  \begin{itemize}
@@ -261,13 +278,12 @@ generals will reach agreement.}{Marshall Pease, Robert Shosthak and Leslie Lampo
     \item Online Wallet with control of private keys
     \item Desktop PC wallet (Full node, SPV Wallets)
     \item Smartphone Wallet
+    \item Multisig multiplatform Wallet (Altana)
   \end{itemize}
   
   \item Cold Storage (disconnected wallet)
   \item Hardware Wallet (private keys not online)
-  \item Brain Wallet 
-  \item HD Wallets (Masterkey $\Rightarrow$ multiple private keys)
-  \item Multisignatures (p2hs)
+  \item Brain Wallet (dangerous and powerful)
  \end{itemize}
 
 \end{frame}
@@ -326,66 +342,13 @@ generals will reach agreement.}{Marshall Pease, Robert Shosthak and Leslie Lampo
  \pgfuseimage{hashrate}
 \end{frame}
 
-
-
-\begin{frame}{Random Quotes}{Taking Breath}
-
-\citazione{Bitcoin is a remarkable cryptographic achievement and the ability to create 
-something that is not duplicable in the digital world has enormous value.}{Eric Schmidt (Google's former CEO)}
-
-%\citazione{Every informed person needs to know about Bitcoin because it might be one of the world’s most important developments.}{Leon Louw, Nobel Peace prize nominee}
-
-\citazione{Not having an internet strategy in 1995 is the equivalent of not having a bitcoin strategy now.}{
-Moe Levin (Bitpay CEO)}
-
-\citazione{By 2005 or so, it will become clear that the Internet's 
-impact on the economy has been no greater than the fax machine's.}{Paul Robin Krugman
--- Nobel Memorial Prize in Economic Sciences (1998)}
-\end{frame}
-
-\begin{frame}{Security Issues}{Bitcoin attacks}
-\begin{itemize}
- \item 51\% attack (50\% +1)
- \item Finney or “Block Withholding” Attack
- \item The Race Attack
- \item Key Guessing / Collision Attacks
- \item Non-Bitcoin / Infrastructure Attacks
- \item Non-Technical Attacks / Scams
-\end{itemize}
-\end{frame}
-
-\section{Status}
-
-\begin{frame}{Usage Metrics}{Latest quarter}
-\pgfuseimage{metrics}
-\begin{itemize}
- \item \url{http://coinmap.org/} 
-\end{itemize}
-\end{frame}
-
-\begin{frame}{What is happening?}{Status of Venture Capitals}
-  \pgfuseimage{vcmoney}
-\end{frame}
-
-\begin{frame}{Permissionless Innovation}{Bitcoin and Internet}
-% Permissionless Innovation
-\begin{itemize}
- \item Before Internet, point-to-point communication between computers was available
- \item You needed a contract or permission from a Telco in order to innovate
- \item Low level of Innovation, fax-machine, poor video conferences, not much more
- \item Bitcoin opens an era of financial Innovation (programmable money)
- \item The Blockchain permits Decentralized Computing
- \item Internet of Things: IBM's ``Adept'' will use the Blockchain 
-\end{itemize}
-\end{frame}
-
 \section{Blockchain Apps}
 
 % blockchain as Permanent DB 
 \begin{frame}{Blockchain as DB}{Permanent Storage}
 % Proof of existence
 \begin{itemize}
- \item You could write important data in the Blockchain (for free or for a small fee)
+ \item You could write important data in the Blockchain (for a small bitcoin fee)
  \item What is written in the Blockchain is ``forever''
  \item No one can remove or alter Blockchain information
  \item Example Application: Proof of Existence, Decentralization of Notary services 
@@ -396,10 +359,23 @@ impact on the economy has been no greater than the fax machine's.}{Paul Robin Kr
 \end{tiny}
 \end{frame}
 
+\begin{frame}{Permissionless Innovation}{Bitcoin and Internet}
+% Permissionless Innovation
+\begin{itemize}
+ \item Before Internet, point-to-point communication between computers was available
+ \item You needed a contract or permission from a Telco in order to innovate
+ \item Low level of Innovation, fax-machine, poor video conferences, not much more
+ \item Bitcoin opens an era of financial Innovation (programmable money)
+ \item The Blockchain permits Decentralized Computing
+\end{itemize}
+\end{frame}
+
+
+
 \begin{frame}{Generic Asset Ledger}{Coloring Coins}
 \begin{itemize}
 \item Tracking bitcoin transaction to allow generic asset trading
-\item ``coloring coins'' enables distributed exchanges
+\item ``coloring coins'' enables innovation on top
 \item anyone can issue a colored coin
 \end{itemize}
 \vfill
@@ -416,71 +392,62 @@ impact on the economy has been no greater than the fax machine's.}{Paul Robin Kr
 \item Example: decentralized escrow (OpenBazaar is a decentralized Ebay)
 \item Example: Smart Properties
 \end{itemize}
-
 \end{frame}
 
-\section{Altcoins}
-
-% colored coins, mastercoin, counterparty, sidechains
-% multisignatures -> decentralized escrow, ebay, nanopayments channels
-% smart contracts
-% DAO ethereum, mastercoin, counterparty
-% Bitcoin for good
-
-\begin{frame}{Crypto currencies}{640 currencies should be enough for everyone}
- \begin{columns}
-  \begin{column}{0.5 \textwidth}
- \pgfuseimage{cryptocap}  
-  \end{column}
-  
- \begin{column}{0.4 \textwidth}
+\begin{frame}{Scaling Bitcoin}{Need space?}
 \begin{itemize}
-\begin{small}   
-    \item Initially forks of bitcoin codebase
-    \item Purpose-Specific or Experimental testbed
-    \item Different parameters or hash Algorithm
-    \item Due to being tied to bitcoin, they become real money too (crypto exchanges)
-    \item Less network effect, no real threat to Bitcoin
-\end{small}
-   \end{itemize}
-  \end{column}
-  \hfill
-  \end{columns}
-\end{frame}
-
-\begin{frame}{Appcoins}{Ethereum example}
-\begin{itemize}
- 
- \item Bitcoin full nodes execute a Non-Turing Complete script (handling of transactions, signatures)
- \item What if the script is Turing Complete?
- \item A platform for Smart Contracts \begin{scriptsize}\url{http://www.ethereum.org}\end{scriptsize}
- \item Distributed Applications
- \item Distributed Autonomous Corporations
+\item a typical TX is 300 bytes, 1Mb each 10 minutes
+\item \textbf{On chain TX are limited to 3 tps}
+\item Paypal like scaling (Coinbase users)
+\item Smaller TX (Segregated Witness, Schnorr signatures)
+\item Blocksize increase (Hard Fork required)
+\item Payment Channels
+ \begin{itemize}
+  \item already available
+  \item exchange of presigned TX
+  \item TX not published on blockchain, just Open/Close CH
  \end{itemize}
+\end{itemize}
+\end{frame} 
 
- \pgfuseimage{dao}
- 
-\end{frame}
-
-\section{Misc}
-
-\begin{frame}{Bitcoin for good}{Payment system for developing countries}
+\begin{frame}{Scaling Bitcoin}{Need speed?}
 \begin{itemize}
- \item 50 \% of the world is unbanked
- \item Kenya: 50 \% of gdp is transacted via Mpesa, SMS money
- \item Remittances: $\sim$400 B\$ market, 8\% average fee
- \item Microcredits
+ \item Lightning Networks 
+  \begin{itemize}
+    \item Payment Channels on steroids with Routing
+    \item Offchain Trustless Contracts > 1B tps
+    \item Smart contract and Game Theory based
+   \end{itemize}
+ \item Sidechains
+  \begin{itemize}
+    \item an altchain with BTC as the currency
+    \item bitcoin are locked in a chain to appear in the other chain
+    \item chain can have different rules and features
+    \item merged mining, federated mining
+  \end{itemize}
 \end{itemize}
 \end{frame}
 
+\begin{frame}{Security Issues}{Bitcoin attacks}
+\begin{itemize}
+ \item 51\% attack (50\% +1)
+ \item Finney or “Block Withholding” Attack
+ \item The Race Attack
+ \item Key Guessing / Collision Attacks
+ \item Non-Bitcoin / Infrastructure Attacks
+ \item Non-Technical Attacks / Scams
+\end{itemize}
+\end{frame}
+
+
 \section{Final Notes}
 
-\begin{frame}{Why Security and Trust?}
+\begin{frame}{Why Cybersecutity and Bitcoin?}
 \begin{itemize}
   \item \textbf{Money is Data, Data is Money}
   \item This dramatically increases the security requirements
   \item Keys must be stored safely
-  \item New motivation for hacking of desktop and smarphone devices
+  \item New motivations (10 B\$ Bounty) for hacking of desktop and smarphone devices
   \item Security in a decentralized system
  \end{itemize}
 \end{frame}
@@ -488,7 +455,7 @@ impact on the economy has been no greater than the fax machine's.}{Paul Robin Kr
 
 \begin{frame}{What Next?}{Questions?}
  \begin{itemize}
-  \item Which topic needs more care? (next 2 events)
+  \item Which topic needs more care?
   \item Security and Wallets handling
   \item Protocol security issues
   \item Cryptographic underliyng protocols security
@@ -497,7 +464,7 @@ impact on the economy has been no greater than the fax machine's.}{Paul Robin Kr
  \end{itemize}
  
   \begin{block}{These slides}
-  \url{http://goo.gl/BbzhTT} [github: mammadori, branch ``st'']
+  \url{http://goo.gl/BbzhTT} [github: mammadori, branch ``speck'']
   \end{block}
 
 \end{frame}
